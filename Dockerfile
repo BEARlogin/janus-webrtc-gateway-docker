@@ -294,7 +294,7 @@ RUN make && make install
 
 
 RUN cd / && git clone https://github.com/meetecho/janus-gateway.git && cd /janus-gateway && \
-    git checkout refs/tags/v0.10.9 && \
+    git checkout refs/tags/v0.11.3 && \
     sh autogen.sh &&  \
     PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./configure \
     --enable-post-processing \
